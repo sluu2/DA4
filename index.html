@@ -1,0 +1,143 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+    <title>Index</title>
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    
+    <!-- TRYING TO RELEARN CSS -->
+    <style type="text/css">
+        body {
+            background-image: url(img/lens_flare_abstract.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        #header {
+            background-color: blue;
+            color:white;
+            text-align:center;
+            padding:5px;
+        }
+        #nav {
+            line-height:30px;
+            background-color:#eeeeee;
+            height:300px;
+            width:100px;
+            float:left;
+            padding:5px;	      
+        }
+        #section_margin {
+             background-image: url(img/game_margin.png);
+            background-repeat: repeat;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 10px;
+        }
+        #section {
+            background-color: #eeeeee;
+            width:800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 5px;
+        }
+        
+        #game_margin {
+        }
+        
+        #game {
+            width: 800px;
+            height: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #footer {
+            background-color:black;
+            color:white;
+            clear:both;
+            text-align:center;
+            padding:5px;	 	 
+        }
+        
+        h1 {
+            color: red;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 10px
+        }
+        
+        h2 {
+            color: black;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        ul.a {
+            list-style-type: circle;
+            margin-right: 20px;
+        }
+         
+        p {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "game_margin">
+        <div id = "game">
+            <iframe src="game.html" height="600"; width="800"; marginheight= "0"; marginwidth="0"; frameborder = 0;></iframe>
+        </div>
+    </div>
+    <div id="section_margin">
+        <div id = "section">
+            
+            <h1 class >Change Log (v0.1 alpha)</h1>
+            <ul class="a">
+                <li>Spongebob character sprites added</li>
+                <li>Background added</li>
+                <li>DDR Arrows added</li>
+                <li>Collision detection between the arrows and the target box created</li>
+                <li>Music and sound effects added</li>
+                <li>Menus and HUD added</li>
+                <li>3 Difficulties added (Incremental difficulty)</li>
+            </ul>
+            
+            <h1>Issues</h1>
+            <ul class="a">
+                <li>Used boolean conditions as well as phaser's "game.paused" property to handle the game's psuedo-states</li>
+                <li>Deviation from original idea of DDR</li>
+            </ul>
+            
+            <h1>WHY IS THIS HAPPENING TO ME?</h1>
+            <p><strong>High Concept: </strong>Why is this Happening to Me?</p>
+            <p><strong>Player Experience Goals: </strong>The goal is the make the player feel a sense of dread as Patrick is nearing the vat.</p>
+            <p><strong>Genre:</strong> Educational Rhythm-based Game</p>
+            <p><strong>Game play:</strong> Using the arrow keys, PRESS and HOLD the key indicated by the arrow shown in game. Keep the button HELD until it passes the target square. The game gives feedback visually and aurally when you successly complete the action as well as when you fail.</p>
+            <p><strong>Prototype Goal:</strong> The purpose of this game is to explore the use of timers and quick time collisions between a moving object (arrow), a target, and the player's key press</p>
+            <p><strong>Features:</strong> This game features use of quick time actions that the player must perform to keep Patrick from sinking into the vat. The random number generator generates the speed of the arrows as they are spawned.</p>
+            <p><strong>Setting/Premise:</strong> Plankton's Factory because it's Spongebob related! (:D)</p>
+            <p><strong>Story:</strong> Plankton has captured Patrick and is trying to cook him as an experiment for a new menu item. Your job is to try to preserve Patrick as long as you can. Did I mention that Patrick does not know why this is happening to him?</p>
+            <p><strong>Target Audience:</strong> The target audience that this game is targeted towards is 4-year olds as the concepts are simple (direction keys and cartoon characters)... well, kinda</p>
+            <p><strong>Play time:</strong> The game doesn't take a certain duration to complete, rather it ends when the player fails.</p>
+            <p><strong>Strategies:</strong> The game requires a quick reaction time, so focusing your attention towards where the arrows spawn helps!</p>
+            <p><strong>Prototype Assets:</strong></p>
+            <ul class="a">
+                <li>Patrick Sprite created by O Illusion</li>
+                <li>Spongebob and Plankton from the television show, Spongebob Squarepants</li>
+                <li>Robot Factory Background by sonicmechaomega999</li>
+                <li>"Why Does this Keep Happening to Me?" soundbite from the television show, Spongebob Squarepants</li>
+                <li>"Isolation" song by Lucas King</li>
+                <li>"Sad Romance", soundtrack used in "Over the Green Fields" (2003 Korean TV Drama)</li>
+                <li>Ding (Royalty Free)</li>
+                <li>Wrong Answer Buzzer (Freesounds)</li>
+            </ul>
+            <p><strong>Prototype Closest Other Game:</strong> Dance Dance Revolution (DDR) </p>
+        </div>
+    </div>
+</body>
+</html>
